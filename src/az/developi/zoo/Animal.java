@@ -36,9 +36,14 @@ public abstract class Animal {
         }
         return false;
     }
-    public abstract void eat();
+    public abstract void geteat();
 
     public abstract void treat();
 
     public abstract boolean aMonthPasses();
+
+    public void setEnclourse(Enclosure enclosure) {
+    }
+
+    public abstract String[] getEat();
 }
